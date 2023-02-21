@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".Main.MainPaneActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:layout_marginBottom="50dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/earmotion"/>
+        <android.widget.Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:paddingTop="10dp"
+            android:id="@+id/to_music_activity_button"
+            android:background="@drawable/device_select_button"
+            android:paddingBottom="10dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+
+            android:text="@string/music"/>
+        <android.widget.Button
+            android:layout_width="200dp"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/device_select_button"
+            android:backgroundTint="@null"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+
+            android:layout_marginTop="15dp"
+            android:text="@string/game"/>
+        <android.widget.Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/device_select_button"
+            android:textAllCaps="false"
+            android:id = "@+id/to_video_activity_button"
+            android:textColor="@color/white"
+
+            android:text="@string/video"/>
+        <android.widget.Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:id="@+id/to_bluetooth_button"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/device_select_button"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:text="@string/bluetooth"/>
+    </LinearLayout>
+</LinearLayout>

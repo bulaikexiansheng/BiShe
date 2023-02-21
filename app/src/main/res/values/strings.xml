@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Algorithm</string>
+    <string name="test">测试</string>
+    <string name="default_deviceName">AI-Ting</string>
+    <string name="default_deviceID">6666</string>
+
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="select_your_device">select your device</string>
+    <string name="skip">skip</string>
+    <string name="device">device</string>
+    <string name="earmotion">EarMotion</string>
+    <string name="music">Music</string>
+    <string name="game">Game</string>
+    <string name="video">Video</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="song_name">Rather Be</string>
+    <string name="singer">Clean Bandit/Hess Glynne</string>
+    <string name="music_love">MusicLove</string>
+    <string name="connect">connect</string>
+
+
+</resources>
